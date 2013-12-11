@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fr.drangies.coupDeFoudre" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Coup De Foudre</name>
+    <description>
+        Application Coup de foudre
+    </description>
+    <author email="xavier.seignard@gmail.com" href="http://drangies.fr">
+        Xavier Seignard
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <icon src="res/icon/android/icon-36-ldpi.png" cdv:platform="android" cdv:density="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png" cdv:platform="android" cdv:density="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png" cdv:platform="android" cdv:density="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png" cdv:platform="android" cdv:density="xhdpi" />
+</widget>

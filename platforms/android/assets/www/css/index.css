@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background: url('../img/BACKGROUND.png') no-repeat center top;
+    font-family: 'bebas_neueregular', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.logo {
+    background: url('../img/LOGO.png') no-repeat center top;
+    position: absolute;
+    top:3%;
+    height: 248px;
+    width: 100%;
+}
+
+.container, #buttons {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 83%;
+}
+
+.container h1:before {
+    content:url('../img/ENTOURAGE_TITRE_GAUCHE.png');
+    position: relative;
+    margin-right: 10px;
+}
+.container h1:after {
+    content:url('../img/ENTOURAGE_TITRE_DROITE.png');
+    position: relative;
+    margin-left: 10px;
+}
+
+.contact, .credits {
+    margin-top: 6%;
+}
+
+.enluminure {
+    background: url('../img/ENLUMINURE_CENTRAL.png') no-repeat center top;
+    position: absolute;
+    top: 40%;
+    height: 45px;
+    width: 100%;
+}
+
+.ligne {
+    background: url('../img/LIGNE_CENTRAL.png') no-repeat center top;
+    position: absolute;
+    top: 62%;
+    height: 34px;
+    width: 100%;
+}
+
+#buttons {
+    -webkit-justify-content: space-around;
+    -webkit-padding-start: 0px;
+    margin-top: 7%;
+    width: 90%;
+}
+
+#buttons li {
+    list-style: none;
+}
+#buttons h2 {
+    font-weight: normal;
+    margin-top: 5%;
+}
